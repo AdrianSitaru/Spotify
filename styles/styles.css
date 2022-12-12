@@ -37,8 +37,10 @@ h2 {
 }
 
 header img {
-  height: 60px;
-  margin-left: 25px;
+  height: 45px;
+  width: 125px;
+  margin-top: 5px;
+  margin-left: 15px;
   cursor: pointer;
 }
 
@@ -121,6 +123,10 @@ footer a {
 
 #First-element {
   padding: 30px 15px;
+}
+
+#footer-p2 {
+  padding-top: 10px;
 }
 
 .buttons {
@@ -294,5 +300,13 @@ footer a {
 
 .footer-elements {
   width: 500px;
+  display: flex;
+}
+div.footer-copiright div p {
+  color: white;
+  padding: 3px;
+}
+
+div.footer-copiright {
   display: flex;
 }
