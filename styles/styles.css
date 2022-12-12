@@ -1,7 +1,8 @@
+/* general part */
 body {
   padding: 0;
   margin: 0;
-  /* width: 430px; */
+  /* width: 380px; */
 }
 
 header {
@@ -10,9 +11,9 @@ header {
   display: block;
 }
 
-main {
+/* main {
   background-color: #df0c8b;
-}
+} */
 
 h1 {
   padding: 20px 10px;
@@ -39,6 +40,8 @@ header img {
   margin-left: 25px;
   cursor: pointer;
 }
+
+/* buttons */
 
 #btn1 {
   background-color: black;
@@ -76,13 +79,22 @@ header img {
   padding: 22px;
 }
 
+#p1 {
+  margin-top: 8px;
+}
 #hero-image {
   height: 280px;
   width: 280px;
 }
 
+#top-span {
+  background-color: #0d72ea;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
 .buttons {
-  width: 350px;
+  width: 300px;
   align-items: center;
 }
 
@@ -101,8 +113,10 @@ header img {
 }
 
 .hero-banner {
-  margin-left: 25px;
+  padding-left: 25px;
   color: white;
+  margin-bottom: 0;
+  background-color: #df0c8b;
 }
 
 .presentation {
@@ -111,10 +125,86 @@ header img {
 
 .main-article {
   display: flex;
-  margin: 40px 35px;
+  margin: 30px 25px;
 }
 
 .main-article img {
   width: 100px;
   height: 100px;
+}
+
+.article-description {
+  margin-left: 19px;
+}
+
+.cards-section {
+  /* text-align: center; */
+  padding: 40px 0px;
+  margin: 0;
+  background-color: #d9d9d9;
+}
+
+.subscribe-section h3 {
+  margin: 8px 0px;
+}
+
+.line {
+  margin-bottom: 20px;
+  border: 1px solid rgb(156, 156, 156);
+  height: 0.5px;
+  margin-right: 10px;
+}
+
+.subscribe-section {
+  box-shadow: 1px 1px 4px 1px rgb(143, 141, 141);
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+  border: 2px rgb(51, 51, 51);
+  margin: 10px 35px;
+  background-color: white;
+  width: 260px;
+}
+
+.subscribe-section img {
+  height: 15px;
+  width: 12px;
+  /* padding: 5px; */
+}
+
+.check-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.subscribe-button {
+  background-color: black;
+  font-size: 10px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 150px;
+  margin: 10px 10px 20px 59px;
+}
+
+.cards-first-part {
+  text-align: center;
+  margin: 25px;
+}
+
+.cards-first-part h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.subscribe-section a {
+  color: black;
 }
