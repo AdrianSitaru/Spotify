@@ -163,6 +163,10 @@ footer a {
   width: 200px;
 }
 
+.main-article {
+  margin-left: 25px;
+}
+
 .main-article2 {
   display: flex;
   margin: 30px 25px;
@@ -322,11 +326,10 @@ div.footer-copiright {
 }
 
 @media (min-width: 50px) and (max-width: 768px) {
-  .presentation .main-article {
+  .presentation {
     display: flex;
     flex-direction: column;
   }
-
   .terms a {
     display: flex;
     flex-direction: column;
