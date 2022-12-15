@@ -392,3 +392,56 @@ div.footer-copiright {
     display: flex;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1065px) {
+  .hero-banner h1 {
+    font-size: 50px;
+  }
+  .hero-banner h2 {
+    font-size: 26px;
+  }
+  .btn1 {
+    padding-right: 15px;
+    margin-left: 5px;
+  }
+  .buttons {
+    padding-left: 5px;
+  }
+  .hero-banner img {
+    margin: auto 330px;
+  }
+
+  .presentation #h2 {
+    font-size: 40px;
+  }
+
+  .main-article .article {
+    margin-left: 40px;
+  }
+  .main-article .article img {
+    height: 120px;
+    width: 120px;
+  }
+  .main-article .article .article-description h3 {
+    font-size: 22px;
+  }
+  .main-article .article .article-description p {
+    font-size: 15px;
+  }
+  .cards-first-part h2 {
+    font-size: 40px;
+  }
+  .cards-first-part #subscribe-p {
+    font-size: 20px;
+  }
+  .subscribe {
+    margin: auto 290px;
+  }
+  .subscribe-section {
+    height: 400px;
+  }
+
+  .subscribe .subscribe-section #subscribe-p {
+    padding-top: 40px;
+  }
+}
