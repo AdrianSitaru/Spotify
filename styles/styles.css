@@ -2,7 +2,6 @@
 body {
   padding: 0;
   margin: 0;
-  width: 380px;
 }
 
 header {
@@ -55,8 +54,10 @@ footer a {
 
 #btn1 {
   background-color: black;
+  text-align: center;
   color: white;
-  width: 100%;
+  width: 301px;
+  height: 58px;
   border-radius: 30px;
   padding: 15px 65px;
   border: 1px solid black;
@@ -64,23 +65,17 @@ footer a {
   cursor: pointer;
 }
 
-#btn1:hover {
-  padding: 20px 70px;
-}
-
 #btn2 {
   background-color: #df0c8b;
+  text-align: center;
   color: white;
-  width: 100%;
+  width: 301px;
+  height: 58px;
   border-radius: 30px;
   padding: 15px 65px;
   border: 1px solid white;
   margin: auto 25px 15px;
   cursor: pointer;
-}
-
-#btn2:hover {
-  padding: 20px 70px;
 }
 
 #h2 {
@@ -159,12 +154,12 @@ footer a {
   background-color: white;
 }
 
-.main-article {
+.main-article2 {
   display: flex;
   margin: 30px 25px;
 }
 
-.main-article img {
+.main-article2 img {
   width: 100px;
   height: 100px;
 }
@@ -191,7 +186,7 @@ footer a {
 
 .subscribe-section {
   box-shadow: 1px 1px 4px 1px rgb(143, 141, 141);
-  padding: 10px 0px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-radius: 5px;
   border: 2px rgb(51, 51, 51);
   margin: 10px 35px;
@@ -244,6 +239,12 @@ footer a {
 
 .subscribe-section a {
   color: black;
+  padding-left: 10px;
+}
+
+.subscribe .subscribe-section #subscribe-p {
+  font-size: 12px;
+  text-align: center;
 }
 
 .footer-pages {
@@ -309,4 +310,52 @@ div.footer-copiright div p {
 
 div.footer-copiright {
   display: flex;
+}
+
+@media (min-width: 50px) and (max-width: 768px) {
+  .presentation .main-article {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .buttons {
+    display: flex;
+    padding: 25px;
+  }
+
+  .btn1 {
+    padding-right: 25px;
+  }
+
+  .hero-banner img {
+    margin: auto 235px;
+  }
+
+  .main-article {
+    display: flex;
+  }
+  .subscribe-section {
+    width: 360px;
+  }
+
+  .subscribe {
+    margin-left: 170px;
+  }
+
+  .subscribe .subscribe-section #subscribe-p {
+    padding: 5px;
+  }
+  .subscribe-button {
+    width: 300px;
+    margin-left: 28px;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-pages {
+    margin-top: 40px;
+  }
 }
