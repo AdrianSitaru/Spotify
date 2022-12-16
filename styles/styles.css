@@ -330,6 +330,18 @@ div.footer-copiright {
     display: flex;
     flex-direction: column;
   }
+  #hero-image {
+    margin: 30px 50px;
+  }
+  .buttons {
+    width: 90%;
+  }
+  #btn1 {
+    width: 100%;
+  }
+  #btn2 {
+    width: 100%;
+  }
   .terms a {
     display: flex;
     flex-direction: column;
@@ -341,8 +353,20 @@ div.footer-copiright {
     padding: 25px;
   }
 
-  .btn1 {
-    padding-right: 25px;
+  #btn1 {
+    width: 277px;
+    font-size: small;
+  }
+
+  #btn2 {
+    width: 277px;
+    font-size: small;
+    margin-left: -20px;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    width: 100%;
   }
 
   .hero-banner img {
@@ -381,7 +405,7 @@ div.footer-copiright {
   }
 
   .terms a {
-    width: 200px;
+    width: 150px;
   }
 
   .terms-2 {
@@ -394,8 +418,40 @@ div.footer-copiright {
 }
 
 @media (min-width: 992px) and (max-width: 1065px) {
+  .header img {
+    margin-left: 100px;
+  }
+
+  #hero-image {
+    width: 400px;
+    height: 400px;
+    margin: 20px 190px;
+  }
+
+  .hero-banner-content {
+    width: 600px;
+  }
+  #btn1 {
+    width: 277px;
+    font-size: small;
+  }
+
+  #btn2 {
+    width: 277px;
+    font-size: small;
+    margin-left: -20px;
+  }
+  .buttons {
+    display: flex;
+    margin-left: -30px;
+  }
+  .hero-banner {
+    padding-left: 100px;
+  }
+
   .hero-banner h1 {
-    font-size: 50px;
+    padding: 20px auto 5px auto;
+    font-size: 40px;
   }
   .hero-banner h2 {
     font-size: 26px;
@@ -415,8 +471,13 @@ div.footer-copiright {
     font-size: 40px;
   }
 
+  .main-article {
+    display: flex;
+  }
+
   .main-article .article {
     margin-left: 40px;
+    margin-bottom: 50px;
   }
   .main-article .article img {
     height: 120px;
@@ -432,16 +493,64 @@ div.footer-copiright {
     font-size: 40px;
   }
   .cards-first-part #subscribe-p {
+    margin-bottom: 50px;
     font-size: 20px;
   }
   .subscribe {
+    display: block;
     margin: auto 290px;
   }
   .subscribe-section {
-    height: 400px;
+    width: 400px;
+    height: 450px;
   }
 
-  .subscribe .subscribe-section #subscribe-p {
-    padding-top: 40px;
+  .subscribe-section img {
+    height: 22px;
+    width: 20px;
+  }
+  .image-description p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .subscribe-section p {
+    font-size: 15px;
+  }
+
+  .subscribe-button {
+    width: 350px;
+    height: 45px;
+    margin-left: 30px;
+    border-radius: 30px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-elements {
+    width: 100%;
+  }
+  .footer-pages {
+    margin-top: -10px;
+  }
+
+  .footer-pages2 {
+    margin-top: 10px;
+  }
+
+  .footer-pages3 {
+    margin-top: 10px;
+  }
+  .terms {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .terms a {
+    width: 150px;
   }
 }
