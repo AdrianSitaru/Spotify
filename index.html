@@ -10,8 +10,22 @@
   <body>
     <header>
       <div class="header">
-        <img src="/img/spotify_logo2.jpg" alt="Spotify-loogo" />
-        <span class="menu">|||</span>
+        <div>
+          <img src="/img/spotify_logo2.jpg" alt="Spotify-loogo" />
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="#">Premium</a>
+            </li>
+            <li><a href="#">Asistență</a></li>
+            <li><a href="#">Descarcă</a></li>
+            <li><span id="header-sign"">|</span></li>
+            <li><a href="#">Înregistrează-te</a></li>
+            <li><a href="#">Conectează-te</a></li>
+          </ul>
+          <span class="menu">|||</span>
+        </div>
       </div>
     </header>
     <main>
@@ -39,11 +53,13 @@
             Oferta se încheie pe 31.12.2022.
           </p>
         </div>
-        <img
-          id="hero-image"
-          src="https://i.scdn.co/image/ab678e040000ed3a34d5c94b798ed61637264101"
-          alt="image"
-        />
+        <div class="main-image">
+          <img
+            id="hero-image"
+            src="https://i.scdn.co/image/ab678e040000ed3a34d5c94b798ed61637264101"
+            alt="image"
+          />
+        </div>
       </section>
       <div class="presentation">
         <h2 id="h2">De ce să treci la Premium?</h2>
@@ -60,7 +76,7 @@
               </div>
             </article>
             <article class="main-article2">
-              <img
+              <img id="image-2"
                 src="/img/Screenshot 2022-12-08 at 00-44-12 Spotify Premium.png"
                 alt="image"
               />
@@ -175,7 +191,7 @@
                 <p>Asculți muzică fără anunțuri, redai offline și la cerere</p>
               </div>
             </div>
-            <button class="subscribe-button">
+            <button id="card-button" class="subscribe-button">
               <a id="button-link" href="#">SĂ ÎNCEPEM</a>
             </button>
             <p id="subscribe-p">
@@ -206,7 +222,7 @@
                 <p>Redare la cerere</p>
               </div>
             </div>
-            <button class="subscribe-button">
+            <button id="card-button2" class="subscribe-button">
               <a id="button-link" href="#">SĂ ÎNCEPEM</a>
             </button>
             <p id="subscribe-p">
