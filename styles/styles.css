@@ -139,6 +139,7 @@ footer a {
   font-size: 34px;
   color: white;
   margin-right: 40px;
+  margin-top: 10px;
   transform: rotate(90deg);
   cursor: pointer;
 }
